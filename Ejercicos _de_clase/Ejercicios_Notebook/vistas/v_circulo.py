@@ -1,6 +1,6 @@
 
 #Se importan el constructor y la clase de negocio para poder usar sus funciones y caracteristicas en esta vista, la cual se encargara de mostrar los resultados al usuario.
-from Ejercicios_Notebook.constructores.c_circulo import CCircculo
+from Ejercicios_Notebook.constructores.c_circulo import CCirculo
 from Ejercicios_Notebook.negocio.n_circulo import NegocioCirculo
 
 
@@ -11,7 +11,7 @@ def ejecutar_ejercicio_circulo():
     radio = float(input("Ingrese el radio del circulo: "))
     
     #se crea un objeto de tipo circulo (constructor) y se le asigna el valor del radio ingresado por el usuario
-    obj_circulo = CCircculo(radio)  #capa de contrutores
+    obj_circulo = CCirculo(radio)  #capa de contrutores
     
     # se crea un objeto de tipo negocio circulo para poder usar sus funciones
     obj_negocio_circulo = NegocioCirculo()  # capa de negocio

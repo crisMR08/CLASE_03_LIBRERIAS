@@ -1,11 +1,11 @@
 
 # se importa la clase math para calculos matematicos
 import math
-from constructores.c_circulo import CCircculo
+from Ejercicios_Notebook.constructores.c_circulo import CCirculo
 
 class NegocioCirculo:
 
-    def calcular_area_circulo(self, obj_circulo: CCircculo) -> float: #se crea funcion para calcular el area del circulo, se le pasa un objeto por 
+    def calcular_area_circulo(self, obj_circulo: CCirculo) -> float: #se crea funcion para calcular el area del circulo, se le pasa un objeto por 
                                                                 #parametro y no una variable ya que si requerimos usar una o mas caracteristicas 
                                                                 # del objeto pordemos usarlas colocando el nombre del objeto seguido por un punto
     
@@ -15,7 +15,7 @@ class NegocioCirculo:
         return area
         
 
-    def calcular_perimetro_circulo(self, obj_circulo: CCircculo) -> float:
+    def calcular_perimetro_circulo(self, obj_circulo: CCirculo) -> float:
     # se calcula el perimetro del circulo usando la formula P = 2 * pi * r, donde r es el radio del circulo
         perimetro = 2 * math.pi * obj_circulo.radio
         return perimetro
